@@ -25,7 +25,7 @@ const deck = new Deck({
       getFillColor: [255, 0, 0],
       pickable: true,
       onHover: (info) => {
-        // event is not triggered with Deck.gl 8.5.6
+        // event is not triggered with Deck.gl 8.6.5
         console.log("info", info);
       }
     })
@@ -48,7 +48,7 @@ map.on("load", () => {
         getFillColor: [0, 0, 255],
         pickable: true,
         onHover: (info) => {
-          // event is not triggered with Deck.gl 8.5.6
+          // event is not triggered with Deck.gl 8.6.5
           console.log("info", info);
         }
       })
